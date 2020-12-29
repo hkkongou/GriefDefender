@@ -1,0 +1,229 @@
+
+#=============================================================#
+# +---------------------------------------------------------+ #
+# | Advanced Achievements English translation by DarkPyves  | #
+# |             ~ Valid as of version 6.2.1 ~              | #
+# |   Newer plugin versions will automatically append new   | #
+# |     untranslated parameters to the end of the file.     | #
+# +---------------------------------------------------------+ #
+#=============================================================#
+no-permissions: 你沒有權限進行這個行為.
+statistic-cooldown: '成就冷卻: 請等待 TIME 秒讓這個行動再次被計算.'
+category-does-not-exist: 這個類別或者子類別 CAT 並不存在. 你是不是在指定 CLOSEST_MATCH?
+all-achievements-received: 恭喜你，你已經成功獲取所有的成就!
+invalid-command: 無效的指令.請使用指令 /aach 顯示成就系統的協助介面.
+
+# Related to /aach reload.
+configuration-successfully-reloaded: 系統設定已經成功重新讀取.
+configuration-reload-failed: 進行系統重新讀取時出現錯誤. 請觀看伺服器的紀錄以獲取更多的資料.
+
+# Related to /aach top week and month.
+top-achievement: '獲得最多成就的玩家:'
+player-rank: '你現在的排名:'
+week-achievement: '本週的成就排名:'
+month-achievement: '本月的成就排名2:'
+not-ranked: 你現在並未納入本時期的排行榜計算當中.
+pagination-header: '&7> &5第 PAGE/MAX 頁'
+pagination-footer: '&7>'
+
+# Related to /aach stats.
+number-achievements: '獲得成就:'
+
+# Related to /aach book.
+book-received: 你已經獲得你的成就書籍!
+book-delay: 你必須等待 TIME 秒才能再次獲取新的書籍!
+book-name: 成就書籍
+book-date: 書籍設立日期是 DATE.
+book-not-received: 您暫時並沒有獲取任何的成就.
+
+# Related to /aach give.
+player-offline: 玩家 PLAYER 暫時離線!
+not-a-player: 您無法給予實體一個成就，他並不是一個玩家!
+achievement-already-received: 這個玩家早前已經獲得過這個成就!
+achievement-not-found: 你所指定的成就無法在這個類別裡面找到.
+  你是不是指 CLOSEST_MATCH?
+achievement-given: 成就已經給予!
+achievement-no-permission: 該玩家 PLAYER 並沒有權限去獲取這個成就!
+
+# Related to /aach add.
+error-value: 這個數值 VALUE 必須是整數!
+statistic-increased:  PLAYER 的 ACH 數值增加了 AMOUNT !
+
+# Related to achievement reception.
+achievement-received: 'PLAYER 收到成就:'
+achievement-new: '獲得新成就:'
+
+# Related to /aach check.
+check-achievement-true: PLAYER 已經獲得成就 ACH!
+check-achievements-false: PLAYER 並沒有我獲得成就 ACH!
+
+# Related to /aach delete.
+delete-achievements: 成就 ACH 已經從 PLAYER 身上移除.
+delete-all-achievements: 已經移除 PLAYER 玩家的所有成就.
+
+# Related to achievement rewards.
+item-reward-received: '你獲得了物品的獎勵: AMOUNT ITEM'
+money-reward-received: '你獲得了金錢: AMOUNT!'
+command-reward: 指令獎勵已經執行並已經給予你獎勵!
+custom-command-reward: '你獲得了你的獎勵: MESSAGE'
+experience-reward-received: '你獲得了: AMOUNT 經驗值!'
+increase-max-health-reward-received: 你的最大生命值上限已經增加了 AMOUNT!
+increase-max-oxygen-reward-received: 你的氧氣已經增加了 AMOUNT!
+
+# Related to /aach help.
+aach-command-book: 獲取您的成就書籍.
+aach-command-book-hover: RP items you can collect and exchange with others! Time-based
+  listing.
+aach-command-stats: 顯示你已經獲得的成就數量.
+aach-command-stats-hover: 進度條. Gotta catch 'em all!
+aach-command-list: 顯示已經獲得的成就或者還沒有獲得的成就.
+aach-command-list-hover: 專用 GUI 能夠讓使用者綜觀所有的成就或進度!
+aach-command-top: 顯示個人或者全球的排行榜.
+aach-command-top-hover: 誰是這個伺服器的領袖？你想與他比較？
+aach-command-give: 給予成就 ACH 到 NAME.
+aach-command-give-hover: 玩家必須在線; 只有指令成就可以使用.
+aach-command-add: 增加統計數量.
+aach-command-add-hover:  玩家必須在線; 主要用作自定義的類別.
+aach-command-reload: 重新讀取插件設定.
+aach-command-reload-hover: 重新讀取大部份 config.yml 的設定, gui.yml 及 lang.yml  檔案.
+aach-command-info: 顯示插件資訊.
+aach-command-info-hover:  關於插件的額外資訊以及作者!
+aach-command-check: 檢查 NAME 是否有 ACH.
+aach-command-check-hover: 使用名稱參數指定在 config.
+aach-command-delete: 移除 ACH 的 NAME.
+aach-command-delete-hover: 玩家必須在線; 並不重設任何有連結的統計數據.
+aach-command-week: 顯示本周的排行榜.
+aach-command-week-hover: 本週最佳的成就獵人!
+aach-command-month: 顯示本月排行榜.
+aach-command-month-hover: 本月最佳的成就獵人!
+aach-command-toggle: 切換其他玩家的成就.
+aach-command-toggle-hover: 你的選擇已經被記錄直至到伺服器重啟!
+aach-command-reset: 重設 CAT 的統計數據.
+aach-command-reset-hover: '玩家必須在線; 例如: reset Places.stone DarkPyves'
+aach-command-generate: 生成成就.
+aach-command-generate-hover: 潛在的緩慢指令; 使用時請小心!
+aach-command-inspect: 偵測 ACH 獲得對象.
+aach-command-inspect-hover: 列出最近期成就獲得玩家, 最多1000.
+aach-tip: '&l提示 &8您可以滑鼠 &7&n&o懸浮&8 或者 &7&n&o點擊&8 在這些指令上面!'
+
+# Related to /aach info.
+version-command-version: '版本:'
+version-command-website: '網站:'
+version-command-author: '作者:'
+version-command-description: '簡介:'
+version-command-description-details: Advanced Achievements enables unique and challenging
+  achievements. Try to collect as many as you can, earn rewards, climb the rankings
+  and receive RP books!
+version-command-vault: 'Vault integration:'
+version-command-petmaster: 'Pet Master integration:'
+version-command-btlp: 'BungeeTabListPlus integration:'
+version-command-essentials: 'Essentials integration:'
+version-command-placeholderapi: 'PlaceholderAPI integration:'
+version-command-database: 'Database type:'
+
+# Related to /aach list.
+list-gui-title: '&5&l成就列表'
+list-delay: 你必須等待 TIME 秒才能使用每一個指令!
+list-description: '簡介:'
+list-goal: '目標:'
+list-reception: '完成時間:'
+list-progress: '進展:'
+list-reward: '獎勵:'
+list-rewards: '獎賞:'
+list-reward-money: 獲得了 AMOUNT
+list-reward-item: 獲得了 AMOUNT ITEM
+list-reward-command: 其他
+list-reward-experience: 獲得了 AMOUNT 經驗2
+list-reward-increase-max-health: 增加了最大血量 AMOUNT
+list-reward-increase-max-oxygen: 增加了最大氧氣值 AMOUNT
+list-achievement-received: '&5✔&f '
+list-achievement-not-received: '&4✘ '
+list-category-not-unlocked: 您暫時並未解鎖這個類別.
+list-achievement-not-unlocked: 你仍未解鎖這個成就.
+list-back-message: '&7返回上一頁'
+list-back-lore: ''
+list-previous-message: '&7以前'
+list-previous-lore: ''
+list-next-message: '&7下一個'
+list-next-lore: ''
+list-achievements-in-category-singular: AMOUNT §a成就
+list-achievements-in-category-plural: AMOUNT §a成就
+list-unavailable-whilst-sleeping: '&c&l你不可以在睡覺的時候使用成就力列表.'
+
+# Related to category names in /aach list.
+# Set a parameter to "" to hide it from /aach list (but not disable the category).
+list-connections: §a連接
+list-places: §a放置方塊
+list-breaks: §a破壞方塊
+list-kills: §a擊殺實體
+list-crafts: §a道具合成
+list-playercommands: §a輸入指令
+list-deaths: §a死亡人數
+list-arrows: §a箭射
+list-snowballs: §a投擲的雪球
+list-eggs: §a拋蛋
+list-fish: §a抓魚
+list-treasure: §a寶藏
+list-itembreaks: §a破碎的物品
+list-eatenitems: §a吃掉的物品
+list-shear: §a剪羊毛
+list-milk: §a牛奶
+list-la vabuckets: §a裝滿熔岩的桶
+list-waterbuckets: §a裝滿水的桶
+list-trades: §a交易數
+list-anvils: §a使用鐵砧
+list-enchantments: §a附魔物品
+list-beds: §a進入床
+list-maxlevel: §a達到最大等級
+list-potions: §a消耗的藥水
+list-playedtime: §a播放時間
+list-distance-foot: §a步行距離
+list-distance-pig: §a豬行進的距離
+list-distance-horse: §a一匹馬走過的距離
+list-distance-minecart: §a在礦車中行駛的距離
+list-distance-boat: §a乘船旅行的距離
+list-distance-gliding: §a鞘翅目擊的距離
+list-distance-llama: §a駱駝的距離
+list-itemdrops: §a物品掉落
+list-itempickups: §a撿起的物品
+list-hoeplowings: §a表面削過
+list-fertilising: §a受精植物
+list-taming: §a馴服的動物
+list-breeding: §a動物繁殖
+list-brewing: §a釀造的藥水
+list-fireworks: §a煙花發射
+list-musicdiscs: §a播放音樂光盤
+list-enderpearls: §a末影珍珠的傳送
+list-petmastergive: §a寵物送給其他玩家
+list-petmasterreceive: §a從其他玩家收到的寵物
+list-smelting: §a物品熔煉
+list-commands: §a其他成就
+list-custom: §a自定義類別
+list-targetsshot: §a射擊目標
+list-raids-won: §a突襲獲勝
+list-riptides: §a使用的激肽
+list-advancements-completed: §a完成進度
+
+# Related to /aach toggle.
+toggle-displayed: 你現在會收到通知關於其他玩家獲得成就.
+toggle-hidden: 你現在不會受到關於其他玩家獲得成就的通知.
+
+# Related to /aach reset.
+reset-successful: CAT 的統計已經清除了，為 PLAYER.
+reset-all-successful: 所有 PLAYER 的統計數值已經清除.
+
+# Related to /aach generate.
+advancements-generated: 成就已經成功生成.
+minecraft-not-supported: 這個成就並不支援你這個版本的minecraft 版本. 請將minecraft的版本升級到 1.12+.
+
+# Related to /aach inspect
+achievement-not-recognized: 成就名叫 'NAME' 並無法辨認. 你是否在指 CLOSEST_MATCH?
+
+#============================================================#
+# +--------------------------------------------------------+ #
+# | Parameters in future plugin versions will  appear here | #
+# +--------------------------------------------------------+ #
+#============================================================#
+list-distance-sneaking: 蹲下的時候移動距離
+list-jobsreborn: 工作升級
+list-lavabuckets: 充滿岩漿的鐵桶
